@@ -1,0 +1,32 @@
+.wrapper-container .switchButton-container {
+  --ant-switch-handle-size: 23px;
+  --ant-switch-track-height: 28px;
+  --ant-switch-track-min-width: 52px;
+
+  --ant-color-primary: linear-gradient(
+    100deg,
+    rgb(35 186 125 / 100%),
+    rgb(15 132 83 / 100%),
+    rgb(0 84 25 / 100%)
+  );
+
+  --ant-color-primary-hover: linear-gradient(
+    100deg,
+    rgb(35 186 125 / 100%),
+    rgb(15 132 83 / 100%),
+    rgb(0 84 25 / 100%)
+  );
+  --ant-color-text-quaternary: linear-gradient(
+    210deg,
+    rgb(35 186 125 / 100%),
+    rgb(15 132 83 / 100%),
+    rgb(0 84 25 / 100%)
+  );
+
+  --ant-color-text-tertiary: linear-gradient(
+    210deg,
+    rgb(35 186 125 / 100%),
+    rgb(15 132 83 / 100%),
+    rgb(0 84 25 / 100%)
+  );
+}
