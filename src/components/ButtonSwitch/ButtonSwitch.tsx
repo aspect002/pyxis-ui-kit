@@ -13,11 +13,13 @@ export const ButtonSwitch: React.FC<ButtonSwitchProps> = ({
   ...props
 }) => {
   return (
-    <div className={classNames(styles["wrapper-container"], containerClassName)}>
-      <Switch
-        className={classNames(styles["switchButton-container"], className)}
-        {...props}
-      />
+    <div
+      className={classNames(
+        styles["buttonSwitch-container"],
+        containerClassName
+      )}
+    >
+      <Switch className={className} {...props} />
     </div>
   );
 };

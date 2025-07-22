@@ -1,4 +1,4 @@
-.wrapper-container .switchButton-container {
+.buttonSwitch-container :global(.ant-switch) {
   --ant-switch-handle-size: 23px;
   --ant-switch-track-height: 28px;
   --ant-switch-track-min-width: 52px;
